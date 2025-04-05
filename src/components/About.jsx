@@ -30,30 +30,32 @@ export default function About() {
           <img 
             src={Myself}
             className='w-full mx-auto'
-            alt='Alessandro Frondini'
+            alt='Dharm Singh'
             loading='lazy'
           />
         </div>
         <div className='md:w-6/12'>
-          <p className='text-md text-slate-900 dark:text-slate-300 text-md md:text-xl'>
-            I've always been captivated by technology and its power to transform the world. My journey began as a dental technician, 
-            where I developed a keen eye for precision and high standards—skills I now apply to software development. 
-            I thrive in dynamic environments, embracing adaptability, continuous learning, and effective time management. 
-            Passionate about collaboration, I believe in crafting innovative solutions while valuing the diverse perspectives of every team member.
-            With a blend of precision from my dental technology background and the creativity inspired 
-            by my love for technologies and music, I'm excited to make a meaningful impact.
-          </p>
+        <p className='text-md text-slate-900 dark:text-slate-300 text-md md:text-xl'>
+  I'm Dharm Singh, an aspiring software developer currently studying at IIITV-ICD. 
+  My journey into tech started with a deep curiosity for how things work on the web. 
+  Over time, I’ve gained hands-on experience in frontend technologies like React.js, 
+  Tailwind CSS, and Material UI, and built multiple real-world projects including 
+  portfolios, real estate platforms, and e-commerce frontends. I enjoy translating ideas 
+  into smooth, interactive user interfaces. I’m passionate about learning, building, 
+  and collaborating with others to create impactful software that solves real problems.
+</p>
+
           <a 
-            href='mailto:alessandrofrondini@gmail.com'
+            href='mailto:dagardharm31503@gmail.com'
             className='mt-3 text-indigo-700 dark:text-[#13ecd4] underline hover:text-pink-500 dark:hover:text-pink-500 flex items-center'
           >
             <TfiEmail className="mr-2"/>
-            alessandrofrondini@gmail.com
+            dagardharm31503@gmail.com
           </a>
           <a 
-            href='https://www.linkedin.com/in/alefrondini/'
+            href='www.linkedin.com/in/dharm-singh-dagar'
             target='_blank'
-            rel='Alessandro Frondini'
+            rel='Dharm Singh'
             className='mt-3 text-indigo-700 dark:text-[#13ecd4] underline hover:text-pink-500 dark:hover:text-pink-500 flex items-center'
           >
             <BsLinkedin className="mr-2"/>

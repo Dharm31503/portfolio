@@ -8,7 +8,7 @@ export default function Footer() {
       </div>
       <div className='py-5 bg-slate-300 dark:bg-slate-400 text-slate-900 text-center rounded-t-3xl'>
         <p>
-          © Alessandro Frondini {new Date().getFullYear()}. All rights reserved.
+          © Dharm Singh {new Date().getFullYear()}. All rights reserved.
         </p>
       </div>
     </>
