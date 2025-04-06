@@ -13,7 +13,7 @@ function MySection() {
                 typewriter
                   .changeDelay(30) // speed
                   .pauseFor(500) // Pause 
-                  .typeString("Hi I'm Alessandro!")
+                  .typeString("Hi I'm Dharm Singh!")
                   .pauseFor(2000) // Pause
                   .deleteAll(50) // Delete text speed
                   .pauseFor(1000) // Pause
@@ -24,8 +24,9 @@ function MySection() {
 
           {/* Intro Paragraphs */}
           <p className="text-md md:text-xl mb-20 text-slate-900 dark:text-gray-300">
-            Welcome to my personal portfolio! With a focus on software development, this page aims to provide a comprehensive display of my projects and achievements. 
-            Explore my portfolio to get a glimpse of my professional journey and see how I can contribute to your next project.
+          Passionate software developer skilled in building modern web applications. 
+          This portfolio highlights my technical projects, professional achievements, 
+          and the value I bring to development teams. Let’s build something great together.
           </p>
 
           {/* Buttons */}
