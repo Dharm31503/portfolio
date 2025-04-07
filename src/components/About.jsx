@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import SectionTitle from './SectionTitle';
 import Myself from '../../src/assets/Me-noBg.png';
-import NortcodersCertificate from '../../src/assets/NorthcodersCertificate.png';
+
 import { TfiEmail } from "react-icons/tfi";
 import { VscGithub } from "react-icons/vsc";
 import { BsLinkedin } from "react-icons/bs";
@@ -53,7 +53,7 @@ export default function About() {
             dagardharm31503@gmail.com
           </a>
           <a 
-            href='www.linkedin.com/in/dharm-singh-dagar'
+            href='https://www.linkedin.com/in/dharm-singh-dagar-4bb36628a/'
             target='_blank'
             rel='Dharm Singh'
             className='mt-3 text-indigo-700 dark:text-[#13ecd4] underline hover:text-pink-500 dark:hover:text-pink-500 flex items-center'
@@ -62,7 +62,7 @@ export default function About() {
             LinkedIn
           </a>
           <a 
-            href='https://github.com/alessandro-001'
+            href='https://github.com/Dharm31503'
             target='_blank'
             rel='noopener noreferrer'
             className='mt-3 text-indigo-700 dark:text-[#13ecd4] underline hover:text-pink-500 dark:hover:text-pink-500 flex items-center'
@@ -73,63 +73,13 @@ export default function About() {
         </div>
       </div>
 
-      {/* Certification Section */}
-      <div className='py-10'>
-        <SectionTitle>Certifications</SectionTitle>
-        <div className='flex flex-col items-start gap-8 mt-5'>
-          {/* Certificate 1 */}
-          <div className='flex items-center gap-4'>
-            <figure className='w-36 md:w-48 shadow-lg rounded-lg overflow-hidden'>
-              <img 
-                src={NortcodersCertificate}
-                className='w-full cursor-pointer'
-                alt='Northcoders Certificate'
-                loading='lazy'
-                onClick={() => openModal(NortcodersCertificate)}
-              />
-            </figure>
-            <figcaption className='text-left text-xl text-slate-700 dark:text-slate-300'>
-              Northcoders Software Development Bootcamp Certificate - 2023
-            </figcaption>
-          </div>
+      
 
-          {/* Add more certificates here */}
-          {/* <div className='flex items-center gap-4'>
-            <figure className='w-36 md:w-48 shadow-lg rounded-lg overflow-hidden'>
-              <img 
-                src={NortcodersCertificate}
-                className='w-full cursor-pointer'
-                alt='Another Certificate'
-                loading='lazy'
-                onClick={() => openModal(NortcodersCertificate)}
-              />
-            </figure>
-            <figcaption className='text-left text-xl text-slate-700 dark:text-slate-300'>
-              Another Certificate
-            </figcaption>
-          </div> */}
+       
 
-        </div>
-      </div>
-
-      {/* Modal */}
-      {isModalOpen && (
-        <div className='fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center'>
-          <div className='relative'>
-            <button 
-              onClick={closeModal}
-              className='absolute top-0 right-0 p-4 text-red text-8xl'
-            >
-              &times;
-            </button>
-            <img
-              src={modalImage}
-              alt='Certificate_Modal'
-              className='max-w-full max-h-[90vh] object-contain'
-            />
-          </div>
-        </div>
-      )}
+      
+        
+    
     </>
   );
 }
