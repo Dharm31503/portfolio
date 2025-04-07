@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SectionTitle from './SectionTitle';
-import Myself from '../../src/assets/Me-noBg.png';
+import Myself from '../../src/assets/image1.2.png';
 
 import { TfiEmail } from "react-icons/tfi";
 import { VscGithub } from "react-icons/vsc";
