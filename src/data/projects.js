@@ -1,10 +1,4 @@
-import LoveBirdsImage from '../../src/assets/LOVE-BIRDS-app1.png';
-import WeatherOrNot from '../../src/assets/WeatherornotApp.png';
-import PomodoroImg from '../../src/assets/PomodoroImg.png';
-import QuiztopiaImg from '../../src/assets/QuiztopiaImg.png';
-import WeatherApp from '../../src/assets/WeatherAppMobile.png';
-import PortfolioImg from '../../src/assets/Portfolio.png';
-import ApplianceList from '../../src/assets/applianceList.png';
+import PortfolioImg from '../../src/assets/Portfolio.png'
 
 
 const works = [

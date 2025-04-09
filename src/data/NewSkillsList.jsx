@@ -1,12 +1,6 @@
 import React from 'react';
-import ExpoLogo from '../../src/assets/expo-go-app-logo.png';
-import InsomniaLogo from '../../src/assets/insomnia-logo.png';
-import ExpressLogo from '../../src/assets/express-js.png';
-import CppLogo from '../../src/assets/c.png';
-import CodeliteLogo from '../../src/assets/code-lite-logo.png';
 import SectionTitle from '../components/SectionTitle';
 import { HiAcademicCap } from "react-icons/hi2";
-import { AiFillDatabase } from "react-icons/ai";
 import { AiOutlineStar } from "react-icons/ai";
 import { BsTools } from "react-icons/bs";
 import { GiBinoculars } from "react-icons/gi";
@@ -36,11 +30,12 @@ export default function NewSkillsList() {
                 
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#d000ffd5] shadow-[#d000ffd5] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg
+" 
                         alt="Csharp-logo"
                         className='w-20 mx-auto'
                     />
-                    <p className='mt-4'>C#</p>
+                    <p className='mt-4'>C++</p>
                 </div>
             </div>
 
@@ -83,24 +78,7 @@ export default function NewSkillsList() {
                     />
                     <p className='mt-4'>Tailwind</p>
                 </div>
-                {/* <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#f2fafd] shadow-slate-800 dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
-                    <img 
-                        src={ExpoLogo}
-                        alt="expo-go-logo"
-                        className='w-20 mx-auto'
-                        loading='lazy'
-                    />
-                    <p className='mt-4'>Expo</p>
-                </div> */}
-                {/* <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#6bbffc] shadow-[#6bbffc] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
-                    <img 
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
-                        alt="materialUI-logo"
-                        className='w-20 mx-auto'
-                    />
-                    <p className='mt-4'>Material UI</p>
-                </div> */}
-
+                
             </div>
 
           
