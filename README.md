@@ -1,3 +1,4 @@
+ HEAD
 # Dharm's Personal Portfolio:
 
 **⚠️ THIS IS A WORK IN PROGRESS - THIS PORTFOLIO PROJECT IS IN CONTINUOUS DEVELOPMENT ⚠️**
@@ -58,3 +59,5 @@ I'm looking forward to connecting with you!
 
 - Skills icons provided by <a href='https://devicon.dev/' target='_blank'>Devicon</a>
 - This page was inspired by the desire to improve myself and to keep track of my progress in the never ending coding journey.
+# portfolio
+ e70a190973a54fbe817fee925457165dfe73b869
